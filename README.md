@@ -27,8 +27,8 @@ This project demonstrates how Large Language Models can support a customer-suppo
 ## Project Structure
 
 ```text
-genai-15-days/
-├── rag_practice/
+genai/
+├── rag/
 │   ├── app.py                 # RAG policy-question assistant
 │   ├── triage_ticket.py       # LLM support-ticket classifier
 │   ├── dashboard.py           # Streamlit analytics dashboard
@@ -74,7 +74,7 @@ git clone YOUR_GITHUB_REPOSITORY_URL
 2. Enter the RAG project folder.
 
 ```bash
-cd genai-15-days/rag_practice
+cd genai/rag
 ```
 
 3. Create and activate a virtual environment.
@@ -106,7 +106,7 @@ streamlit run dashboard.py
 
 ## Run With Docker
 
-From the `rag_practice` folder:
+From the `rag` folder:
 
 ```powershell
 docker build -t support-dashboard .
