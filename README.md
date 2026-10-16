@@ -1,6 +1,6 @@
 # Support Operations AI Toolkit
 
-A portfolio project built during a 15-day Generative AI learning journey.
+A portfolio project built during AI learning journey.
 
 This project demonstrates how Large Language Models can support a customer-support team by answering policy questions, triaging customer tickets, storing results, and visualizing support trends.
 
